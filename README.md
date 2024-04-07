@@ -1,5 +1,5 @@
 # Home Assistant support for Tuya BLE devices
-##  My attepmt to track the community based pull requests that make Tuya BLE work while PlusPlus-ua is offline.  
+##  My attempt to track the community based pull requests that make Tuya BLE work while PlusPlus-ua is offline.  
 ## Overview
 
 This integration supports Tuya devices connected via BLE.
