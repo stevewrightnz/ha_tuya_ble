@@ -18,21 +18,20 @@ from homeassistant.components.bluetooth import (
     BluetoothServiceInfoBleak,
     async_discovered_service_info,
 )
-from homeassistant.const import (
-    CONF_ADDRESS,
-    CONF_COUNTRY_CODE,
-    CONF_PASSWORD,
-    CONF_USERNAME,
-)
+from homeassistant.const import CONF_ADDRESS
 from homeassistant.core import callback
 from homeassistant.data_entry_flow import FlowHandler, FlowResult
 
 from homeassistant.components.tuya.const import (
     CONF_APP_TYPE,
+    CONF_COUNTRY_CODE,
     CONF_ENDPOINT,
+    CONF_PASSWORD,
+    CONF_USERNAME,
     TUYA_RESPONSE_CODE,
     TUYA_RESPONSE_MSG,
     TUYA_RESPONSE_SUCCESS,
+    TUYA_SMART_APP,
 )
 
 from .tuya_ble import SERVICE_UUID, TuyaBLEDeviceCredentials
