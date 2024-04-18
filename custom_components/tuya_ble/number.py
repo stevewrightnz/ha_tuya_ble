@@ -16,6 +16,7 @@ from homeassistant.const import (
     CONCENTRATION_PARTS_PER_MILLION,
     PERCENTAGE,
     VOLUME_MILLILITERS,
+    TIME_MINUTES,
     UnitOfTime,
     UnitOfVolume,
     UnitOfTemperature,
