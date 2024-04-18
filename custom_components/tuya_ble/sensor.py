@@ -16,6 +16,7 @@ from homeassistant.const import (
     SIGNAL_STRENGTH_DECIBELS_MILLIWATT,
     TEMP_CELSIUS,
     VOLUME_MILLILITERS,
+    TIME_MINUTES,
     UnitOfTemperature,
     UnitOfTime
 )
