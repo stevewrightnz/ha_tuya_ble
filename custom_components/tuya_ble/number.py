@@ -15,6 +15,7 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (
     CONCENTRATION_PARTS_PER_MILLION,
     PERCENTAGE,
+    VOLUME_MILLILITERS,
     UnitOfTime,
     UnitOfVolume,
     UnitOfTemperature,
